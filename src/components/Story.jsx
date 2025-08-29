@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
 
-const FloatingImage = () => {
+const Story = () => {
   const frameRef = useRef(null);
 
   const handleMouseMove = (e) => {
@@ -123,4 +123,4 @@ const FloatingImage = () => {
   );
 };
 
-export default FloatingImage;
+export default Story;
